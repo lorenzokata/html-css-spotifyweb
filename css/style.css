@@ -1,0 +1,59 @@
+/* debug */
+.debug .col-lg-2{
+    background-color: black;
+}
+
+.debug .col-lg-10{
+    overflow: auto;
+    background-color: lightsalmon;
+}
+
+.debug footer{
+    background-color: #282828;
+}
+/* fine debug */
+
+
+/* commons */
+.grey{
+    color: #a3a3a3;
+}
+
+.white{
+    color: white;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* fine commons */
+
+
+/* main */
+main{
+    height: calc(100vh - 100px);
+}
+
+.container-fluid{
+    display: flex;
+    height: 100%;
+}
+/* fine main */
+
+
+/* colonna sinistra */
+#logo{
+    width: 80%;
+}
+/* fine colonna sinistra */
+
+
+/* footer */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: o;
+    height: 100px;
+    width: 100%;
+}
+/* footer */
