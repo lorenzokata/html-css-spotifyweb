@@ -47,20 +47,20 @@ aside{ display: flex; width: 250px; height: 100%; background-color: black;}
 
 .crea-playlist img {width: 40px; vertical-align: middle; filter: invert(60%);}
 
-.playlist ul{ display: block; list-style: none; }
+.playlist ul{ display: block; list-style: none; height: 225px; overflow: auto;}
 
-.playlist{overflow-y: auto;}
+.installa-app{border-bottom: 2px solid grey; font-size: 14px;}
+.installa-app::before {content: url(../img/download.svg); display: inline-block; vertical-align: middle; width: 14px; margin-right: 5px;}
 
-.installa-app{border-bottom: 2px solid grey;}
-.installa-app::before {content: url(../img/download.svg); display: inline-block; vertical-align: middle; width: 24px; margin-right: 5px;}
+.profilo{color: white; align-items: center;}
+.profilo-img{height: 25px; width: 25px; background-color: grey; border-radius: 100%;}
 
-.profilo{color: white;}
-.profilo::before {content: url(../img/profile.svg); display: inline-block; vertical-align: middle; width: 20px; margin-right: 5px; background-color: grey; border-radius: 150%;}
 /* aside */
 
 
 /* footer */
 footer{
+    position: fixed;
     height: 100px;
     width: 100%;
 }
