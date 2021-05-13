@@ -6,54 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>My Spotify</title>
 </head>
 <body class="debug">
 
-    <!-- main -->
-    <main>
+    <div class="container-fluid"></div>
 
-        <div class="container-fluid">
-            <aside class="grey fw-700">
+        <!-- main -->
+        <main>
+            <!-- riga principale -->
+            <div class="row main-row">
 
-                <div class="row p-10">
-                    <img src="img/logo.svg" id="logo" alt="logo">
-                </div>
+                <!-- aside -->
+                <aside class="grey fw-500 justify-between column">
 
-                <div class="row">
-                    <ul>
-                        <li class="home p-10">Home</li>
-                        <li class="search p-10">Cerca</li>
-                        <li class="library p-10">La tua libreria</li>
-                    </ul>
-                </div>
+                    <!-- upper-aside -->
+                    <div class="upper-aside">
 
-                <div class="row playlist p-10">
-                    <h4>Playlist</h4>
-                    <ul>
-                        <li>Crea Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                    </ul>
-                </div>
+                        <!-- logo -->
+                        <div class="row p-10 pb-15">
+                            <img src="img/logo.svg" id="logo" class="p-10" alt="logo">
+                        </div>
+                        
+                        <!-- tasti di navigazione -->
+                        <div class="row pb-10">
+                            <ul>
+                                <li class="home pl-20 pb-5">Home</li>
+                                <li class="search pl-20 pb-5">Cerca</li>
+                                <li class="library pl-20">La tua libreria</li>
+                            </ul>
+                        </div>
+        
+                        <!-- playlist -->
+                        <div class="row row-vert playlist">
+                            <h4 class="white p-10 pl-20">Playlist</h4>
+                            <div class="crea-playlist pb-15 pl-20">
+                                <img src="img/plus-square-solid.svg" class="mr-10" alt="tasto aggiungi playlist">
+                                Crea Playlist
+                            </div>
+                                <ul>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                    <li class="pb-15 pl-20">Nome Playlist</li>
+                                </ul>
+                        </div>
+                    </div>
 
-            </aside>
-            
-            <section class="main-section"></section>
-        </div>
+                    <!-- lower aside -->
+                    <div class="lower-aside">
+                        <div class="installa-app ml-20 mr-20 pb-10">Installa app</div>
+                        <div class="profilo pl-20 pt-10 pb-5">John Doe</div>
+                    </div>
     
-	</main>
+                </aside>
+                
+                <section class="main-section overflow-y"></section>
 
-    <!-- footer -->
-    <footer>
-	</footer>
+            </div>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+        </footer>
+
+    </div> 
     
 </body>
 </html>

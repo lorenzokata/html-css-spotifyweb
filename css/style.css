@@ -1,10 +1,5 @@
 /* debug */
-.debug aside{
-    background-color: black;
-}
-
 .debug .main-section{
-    overflow: auto;
     background-color: lightsalmon;
 }
 
@@ -28,7 +23,9 @@ main{ height: calc(100vh - 100px); }
 
 .container-fluid{ display: flex; height: 100%; }
 
-aside{ width: 250px; }
+.main-row{height: 100%;}
+
+aside{ display: flex; width: 250px; height: 100%; background-color: black;}
 
 .main-section{ flex-basis: calc(100% - 250px); }
 /* fine main */
@@ -37,22 +34,33 @@ aside{ width: 250px; }
 /* aside */
 #logo{ width: 70%; }
 
-.home{list-style: none; padding-left: 10px;}
-.home::before{content: url(../img/home.svg); display: inline-block; vertical-align: middle; width: 22px;}
+.home{list-style: none; }
+.home::before{content: url(../img/home.svg); display: inline-block; vertical-align: middle; width: 24px; margin-right: 5px;}
 
-.search{list-style: none; padding-left: 10px;}
-.search::before{content: url(../img/search.svg); display: inline-block; vertical-align: middle; width: 22px;}
+.search{list-style: none; }
+.search::before{content: url(../img/search.svg); display: inline-block; vertical-align: middle; width: 24px; margin-right: 5px;}
 
-.library{list-style: none; padding-left: 10px;}
-.library::before{content: url(../img/libreria.svg); display: inline-block; vertical-align: middle; width: 22px;}
+.library{list-style: none; }
+.library::before{content: url(../img/libreria.svg); display: inline-block; vertical-align: middle; width: 24px; margin-right: 5px;}
+
+.playlist h4{text-transform: uppercase;}
+
+.crea-playlist img {width: 40px; vertical-align: middle; filter: invert(60%);}
+
+.playlist ul{ display: block; list-style: none; }
+
+.playlist{overflow-y: auto;}
+
+.installa-app{border-bottom: 2px solid grey;}
+.installa-app::before {content: url(../img/download.svg); display: inline-block; vertical-align: middle; width: 24px; margin-right: 5px;}
+
+.profilo{color: white;}
+.profilo::before {content: url(../img/profile.svg); display: inline-block; vertical-align: middle; width: 20px; margin-right: 5px; background-color: grey; border-radius: 150%;}
 /* aside */
 
 
 /* footer */
 footer{
-    position: fixed;
-    left: 0;
-    bottom: o;
     height: 100px;
     width: 100%;
 }

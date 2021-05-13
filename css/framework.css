@@ -10,11 +10,24 @@
 
 .container { width: 100%; margin: 0 auto; } 
 
+
+/* flex alignment */
 .row { display: flex; flex-wrap: wrap; }
+
+.column { flex-direction: column;}
+
+.row-vert { flex-direction: column;}
 
 [class*="col-"] { flex: 0 0 auto; } 
 
 .flex { display: flex;}
+
+.justify-between{justify-content: space-between;}
+.justify-around{justify-content: space-around;}
+.justify-center{justify-content: center;}
+.justify-end{justify-content: end;}
+
+.overflow-y{overflow-y: auto;}
 
 /* font-weight */
 .fw-400{ font-weight: 400; }
