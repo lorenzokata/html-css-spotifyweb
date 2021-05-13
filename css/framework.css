@@ -25,7 +25,11 @@
 .justify-between{justify-content: space-between;}
 .justify-around{justify-content: space-around;}
 .justify-center{justify-content: center;}
-.justify-end{justify-content: end;}
+.justify-end{justify-content: flex-end;}
+
+.align-items-start{align-items: flex-start;}
+.align-items-end{align-items: flex-end;}
+.align-items-center{align-items: center;}
 
 .overflow-y{overflow-y: auto;}
 

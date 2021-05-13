@@ -4,9 +4,8 @@
 }
 
 .debug footer{
-    background-color: #282828;
+    
 }
-/* fine debug */
 
 
 /* commons */
@@ -15,23 +14,27 @@
 .white{ color: white; }
 
 *{ font-family: 'Roboto', sans-serif; }
-/* fine commons */
 
 
 /* main */
-main{ height: calc(100vh - 100px); }
 
-.container-fluid{ display: flex; height: 100%; }
+main{ height: calc(100vh - 100px); }
 
 .main-row{height: 100%;}
 
-aside{ display: flex; width: 250px; height: 100%; background-color: black; overflow: hidden;}
-
-.main-section{ flex-basis: calc(100% - 250px); }
-/* fine main */
-
 
 /* aside */
+
+aside{ width: 250px; height: 100%; background-color: black; overflow: hidden;}
+
+.upper-aside{ height: calc(100% - 75px); }
+
+.add-playlist{}
+
+.lista-playlist{ list-style: none; height: 60%; overflow: auto;}
+
+.lower-aside{ height: 75px; background-color: black; }
+
 #logo{ width: 70%; }
 
 .home{list-style: none; }
@@ -47,20 +50,44 @@ aside{ display: flex; width: 250px; height: 100%; background-color: black; overf
 
 .crea-playlist img {width: 40px; vertical-align: middle; filter: invert(60%);}
 
-.playlist ul{ display: block; list-style: none; height: 225px; overflow: auto;}
-
 .installa-app{border-bottom: 2px solid grey; font-size: 14px;}
 .installa-app::before {content: url(../img/download.svg); display: inline-block; vertical-align: middle; width: 14px; margin-right: 5px;}
 
 .profilo{color: white; align-items: center;}
 .profilo-img{height: 25px; width: 25px; background-color: grey; border-radius: 100%;}
-/* aside */
+
+
+
+
+
+
+
+
+
+
+
+/* main-section */
+.upgrade-bar{height: 100px; filter: opacity(60%); background-color: #080B12; text-decoration: none;}
+.btn-upgrade{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+
+
+
 
 
 /* footer */
 footer{
     position: fixed;
+    bottom: 0;
+    left: 0;
     height: 100px;
     width: 100%;
+    background-color: #282828;
 }
-/* footer */
