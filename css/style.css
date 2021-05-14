@@ -124,6 +124,39 @@ footer .left-side img{width: 55px;}
 
 .fa-play-circle{font-size: 40px;}
 
-.volume{
-    width: 60%;
+.riproduzione{width: 60%;}
+
+.riproduzione input{color: white;}
+
+.right-footer{min-width: 230px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    background-color: #ddd;
+    border-radius: 10px;
+    height:10px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #3071a9;
+}
+ 
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #666;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
 }

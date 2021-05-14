@@ -201,8 +201,8 @@
         </main>
 
         <!-- footer -->
-        <footer class="row align-items-center justify-between">
-
+        <footer class="row">
+            <!-- left footer -->
             <div class="col-xs-2 flex align-items-center justify-between left-footer pt-20 pb-20 pl-10 pr-10">
 
                 <div class="left-side flex align-items-center">
@@ -213,15 +213,15 @@
                     </div>
                 </div>
 
-                <div class="right-side flex pr-30">
+                <div class="right-side flex">
                     <i class="far fa-heart p-10"></i>
                     <i class="far fa-folder p-10"></i>
                 </div>
                 
             </div>
-
-            <div class="col-xs-8 flex column justify-around align-items-center white">
-                <div class="player flex justify-between align-items-center">
+            <!-- center footer -->
+            <div class="col-xs flex column justify-center align-items-center white">
+                <div class="player flex justify-between align-items-center pb-10">
                     <i class="fas fa-random"></i>
                     <i class="fas fa-step-backward"></i>
                     <i class="far fa-play-circle"></i>
@@ -229,14 +229,19 @@
                     <i class="fas fa-redo"></i>
 
                 </div>
-                <div class="volume flex justify-between">
+                <div class="riproduzione flex justify-between align-items-center pt-10">
                     <div class="tempo-start">0:25</div>
-                    <input type="range" name="volume" id="volume">
+                    <!-- METTERE LA BARRA DEL TEMPO DI RIPRODUZIONE -->
                     <div class="tempo-totale">4:35</div>
                 </div>
             </div>
-
-            <div class="col-xs-2"></div>
+            <!-- right footer -->
+            <div class="col-xs-2 flex justify-between align-items-center white right-footer">
+                <i class="fas fa-list"></i>
+                <i class="fas fa-tv"></i>
+                <i class="fas fa-volume-up"></i>
+                <input type="range" name="volume" id="volume">
+            </div>
 
         </footer>
 
