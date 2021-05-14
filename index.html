@@ -78,16 +78,122 @@
                         </div>
 
                     </div>
-    
+
                 </aside>
-                
+
+                <!-- sezione principale -->
                 <section class="main-section col-xs overflow-y">
+
+                    <!-- upgrade row -->
                     <div class="row upgrade-bar justify-end align-items-center pr-10">
                         <a href="#" class="btn-upgrade pl-30 pr-30 pt-10 pb-10">Effettua l'upgrade</a>
                     </div>
-                    <div class="row main-content">
+
+                    <!-- main-content row -->
+                    <div class="scroll-wrapped">
+
+                        <!-- barra di navigazione contenuti -->
+                        <nav class="flex justify-center align-items-center grey fw-700">
+                            <ul>
+                                <li class="p-10">In evidenza</li>
+                                <li class="p-10">Podcast</li>
+                                <li class="p-10">Classifiche</li>
+                                <li class="p-10">Generi e Mood</li>
+                                <li class="p-10">Nuove uscite</li>
+                                <li class="p-10">Scopri</li>
+                            </ul>
+                        </nav>
+
+                        <!-- contenuto principale -->
+                        <div class="main-content">
+
+                            <!-- prima riga -->
+                            <div  class="pb-30 p-20">
+                                <h2 class="fw-900 p-20 pb-30">Recently Played</h2>
+                                <div class="row justify-between">
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/metal_lifting.jpg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Heavy Metal</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/stranger.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                        <h4>Kyle Dixon & Michael Stein</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/aquietplace.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">A quiet place</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/split.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Split</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/cure.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">A cure for wellness</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/sinister.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Sinister</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- seconda riga -->
+                            <div class="pb-30 p-20">
+                                <h2 class="fw-900 p-20 pb-10">Creato per John Doe</h2>
+                                <h3  class="pl-20 pb-30 grey">Più ascolti, più accurati saranno i suggerimenti</h3>
+                                <div class="row">
+                                    <!-- card -->
+                                    <div class="cards-col mr-20">
+                                        <img src="img/radar.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Release Radar</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/mixdaily.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Daily Mix 1</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- terza riga -->
+                            <div class="pl-20 pt-20 pr-20">
+                                <h2 class="fw-900 p-20 pb-10">Artisti più popolari</h2>
+                                <h3 class="pl-20 pb-30 grey">Più ascolti, più accurati saranno i suggerimenti</h3>
+                                <div class="row">
+                                    <!-- card -->
+                                    <div class="cards-col mr-20">
+                                        <img src="img/youg.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Lana del Ray</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="cards-col">
+                                        <img src="img/einaudi.jpeg" alt="metal lifting cover" class="pb-20">
+                                        <h3 class="pb-15">Ludovico Einaudi</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
 
                     </div>
+
                 </section>
 
             </div>
@@ -95,7 +201,43 @@
         </main>
 
         <!-- footer -->
-        <footer>
+        <footer class="row align-items-center justify-between">
+
+            <div class="col-xs-2 flex align-items-center justify-between left-footer pt-20 pb-20 pl-10 pr-10">
+
+                <div class="left-side flex align-items-center">
+                    <img src="img/sinister.jpeg" alt="sinister album">
+                    <div class="playing flex column pl-10">
+                        <div class="artist">Sinister</div>
+                        <div class="song grey">Nome Brano</div>
+                    </div>
+                </div>
+
+                <div class="right-side flex pr-30">
+                    <i class="far fa-heart p-10"></i>
+                    <i class="far fa-folder p-10"></i>
+                </div>
+                
+            </div>
+
+            <div class="col-xs-8 flex column justify-around align-items-center white">
+                <div class="player flex justify-between align-items-center">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo"></i>
+
+                </div>
+                <div class="volume flex justify-between">
+                    <div class="tempo-start">0:25</div>
+                    <input type="range" name="volume" id="volume">
+                    <div class="tempo-totale">4:35</div>
+                </div>
+            </div>
+
+            <div class="col-xs-2"></div>
+
         </footer>
 
     </div> 
