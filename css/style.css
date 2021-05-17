@@ -20,9 +20,11 @@ aside{ width: 60px; height: 100%; background-color: black; overflow: hidden;}
 
 .upper-aside{ height: calc(100% - 75px); }
 
-.lista-playlist{ list-style: none; height: 60%; overflow: auto;}
+.lista-playlist{ list-style: none; height: 60%;}
 
-.lower-aside{ height: 75px; background-color: black; }
+.lista-playlist ul{overflow-y: auto; height: 80%;}
+
+.lower-aside{ height: 75px; background-color: black; z-index: 1;}
 
 #logo{ width: 70%; display: none;}
 
