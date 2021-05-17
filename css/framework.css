@@ -22,6 +22,8 @@
 
 .flex { display: flex;}
 
+.nowrap{flex-wrap: nowrap;}
+
 .justify-between{justify-content: space-between;}
 .justify-around{justify-content: space-around;}
 .justify-center{justify-content: center;}
@@ -153,7 +155,7 @@
 
 /* Md Width */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:750px) {
 
     .container { width: 80%; margin: 0 auto; } 
 
@@ -204,7 +206,7 @@
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:850px) {
 
     .container { width: 80%; margin: 0 auto; } 
 
@@ -255,7 +257,7 @@
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1000px) {
 
     .container { width: 80%; margin: 0 auto; } 
 

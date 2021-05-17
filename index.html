@@ -27,17 +27,18 @@
                     <div class="upper-aside">
 
                         <!-- logo -->
-                        <div class="row p-10 pb-15">
+                        <div class="row">
                             <img src="img/logo.svg" id="logo" class="p-10" alt="logo">
+                            <img src="img/logo-small.svg" alt="logo small"  class="p-10" id="logo-small">
                         </div>
                         
                         <!-- tasti di navigazione -->
                         <div class="row pb-10">
 
                             <ul>
-                                <li class="home pl-20 pb-5">Home</li>
-                                <li class="search pl-20 pb-5">Cerca</li>
-                                <li class="library pl-20">La tua libreria</li>
+                                <li class="home pl-20 pb-5"><span>Home</span></li>
+                                <li class="search pl-20 pb-5"><span>Cerca</span></li>
+                                <li class="library pl-20"><span>La tua libreria</span></li>
                             </ul>
 
                         </div>
@@ -71,7 +72,7 @@
                     <!-- lower aside -->
                     <div class="lower-aside">
 
-                        <div class="installa-app ml-20 mr-20 pb-10">Installa app</div>
+                        <div class="installa-app ml-20 mr-20 pb-10"><span>Installa app</span></div>
                         <div class="profilo pl-20 pt-10 pb-10 flex">
                             <img src="img/profile.svg" class="profilo-img mr-5" alt="icona profilo">
                             <p>John Doe</p>
@@ -110,9 +111,9 @@
                             <!-- prima riga -->
                             <div  class="pb-30 p-20">
                                 <h2 class="fw-900 p-20 pb-30">Recently Played</h2>
-                                <div class="row justify-between">
+                                <div class="row">
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
 
                                         <div class="overlay">
                                             <img src="img/metal_lifting.jpg" alt="metal lifting cover">
@@ -123,7 +124,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
 
                                         <div class="overlay">
                                             <img src="img/stranger.jpeg" alt="metal lifting cover">
@@ -134,7 +135,7 @@
                                         <h4>Kyle Dixon & Michael Stein</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/aquietplace.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -144,7 +145,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/split.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -154,7 +155,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/cure.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -164,7 +165,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/sinister.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -182,7 +183,7 @@
                                 <h3  class="pl-20 pb-30 grey">Più ascolti, più accurati saranno i suggerimenti</h3>
                                 <div class="row">
                                     <!-- card -->
-                                    <div class="cards-col mr-20">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/radar.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -192,7 +193,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/mixdaily.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -210,7 +211,7 @@
                                 <h3 class="pl-20 pb-30 grey">Più ascolti, più accurati saranno i suggerimenti</h3>
                                 <div class="row">
                                     <!-- card -->
-                                    <div class="cards-col mr-20">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/youg.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -220,7 +221,7 @@
                                         <h4>Subtitle</h4>
                                     </div>
                                     <!-- card -->
-                                    <div class="cards-col">
+                                    <div class="col-xs-6 col-md-3 col-lg-2">
                                         <div class="overlay">
                                             <img src="img/einaudi.jpeg" alt="metal lifting cover">
                                             <div class="layover-img flex justify-center align-items-center"><i class="fas fa-play"></i></div>
@@ -243,40 +244,51 @@
         </main>
 
         <!-- footer -->
-        <footer class="row">
+        <footer class="row nowrap">
+
             <!-- left footer -->
             <div class="col-xs-2 flex align-items-center justify-between left-footer pt-20 pb-20 pl-10 pr-10">
-
+                
+                <!-- copertina, artista, gruppo -->
                 <div class="left-side flex align-items-center">
                     <img src="img/sinister.jpeg" alt="sinister album">
                     <div class="playing flex column pl-10">
-                        <div class="artist">Sinister</div>
+                        <div class="artist white">Sinister</div>
                         <div class="song grey">Nome Brano</div>
                     </div>
                 </div>
-
+                
+                <!-- icone preferiti e cuore -->
                 <div class="right-side flex">
                     <i class="far fa-heart p-10"></i>
                     <i class="far fa-folder p-10"></i>
                 </div>
                 
             </div>
+
             <!-- center footer -->
             <div class="col-xs flex column justify-center align-items-center white">
+
+                <!-- tasti backward play forward -->
                 <div class="player flex justify-between align-items-center pb-10">
                     <i class="fas fa-random"></i>
                     <i class="fas fa-step-backward"></i>
                     <i class="far fa-play-circle"></i>
                     <i class="fas fa-step-forward"></i>
                     <i class="fas fa-redo"></i>
-
                 </div>
+                
+                <!-- barra di riproduzione -->
                 <div class="riproduzione flex justify-between align-items-center pt-10">
                     <div class="tempo-start">0:25</div>
-                    <!-- METTERE LA BARRA DEL TEMPO DI RIPRODUZIONE -->
+                    <div class="total-play-bar">
+                        <div class="play-bar"></div>
+                    </div>
                     <div class="tempo-totale">4:35</div>
                 </div>
+
             </div>
+
             <!-- right footer -->
             <div class="col-xs-2 flex justify-between align-items-center white right-footer">
                 <i class="fas fa-list"></i>
